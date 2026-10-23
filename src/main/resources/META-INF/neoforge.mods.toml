@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "LGPL-2.1"
+
+[[mods]]
+modId = "mg_alexscaves"
+version = "2.0.6"
+displayName = "Modular Golems: Alex's Caves Restored"
+logoFile = "logo.png"
+authors = "Tygabeast"
+description = '''
+Restores the Alex's Caves integration of Modular Golems 3.x: Candy, Magnetic and Nuclear golem materials,
+their seven abilities (Sticky Caramel, Gum Shooter, Free Movement, Polarize, Reformation, Radiation, Atomic Fueling),
+the Atomic Boost effect and the construct items. Config: mg_alexscaves-common.toml.
+'''
+
+[[dependencies.mg_alexscaves]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mg_alexscaves]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.mg_alexscaves]]
+modId = "modulargolems"
+type = "required"
+versionRange = "[3.1.43,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.mg_alexscaves]]
+modId = "alexscaves"
+type = "required"
+versionRange = "[1.1.1,)"
+ordering = "AFTER"
+side = "BOTH"

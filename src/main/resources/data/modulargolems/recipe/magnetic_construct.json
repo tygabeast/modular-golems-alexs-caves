@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ANA",
+    "TCT",
+    "ANA"
+  ],
+  "key": {
+    "A": {
+      "item": "modulargolems:magnetic_alloy"
+    },
+    "C": {
+      "item": "alexscaves:heart_of_iron"
+    },
+    "N": {
+      "item": "alexscaves:notor_gizmo"
+    },
+    "T": {
+      "item": "alexscaves:telecore"
+    }
+  },
+  "result": {
+    "id": "modulargolems:magnetic_construct",
+    "count": 3
+  }
+}

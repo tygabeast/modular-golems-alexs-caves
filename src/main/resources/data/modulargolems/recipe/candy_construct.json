@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "GBG",
+    "ZCZ",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "modulargolems:candy_mixture"
+    },
+    "B": {
+      "item": "alexscaves:gumball_pile"
+    },
+    "C": {
+      "item": "alexscaves:radiant_essence"
+    },
+    "G": {
+      "item": "alexscaves:sugar_glass"
+    },
+    "Z": {
+      "item": "alexscaves:hot_chocolate_bottle"
+    }
+  },
+  "result": {
+    "id": "modulargolems:candy_construct",
+    "count": 3
+  }
+}

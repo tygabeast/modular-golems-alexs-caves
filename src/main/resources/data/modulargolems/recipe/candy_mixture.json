@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "BBB",
+    "CDC",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "alexscaves:frosted_gingerbread_block"
+    },
+    "B": {
+      "item": "alexscaves:candy_cane_block"
+    },
+    "C": {
+      "item": "alexscaves:caramel"
+    },
+    "D": {
+      "item": "alexscaves:licoroot"
+    }
+  },
+  "result": {
+    "id": "modulargolems:candy_mixture",
+    "count": 1
+  }
+}

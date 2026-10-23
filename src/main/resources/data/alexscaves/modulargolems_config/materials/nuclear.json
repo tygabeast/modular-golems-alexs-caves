@@ -1,0 +1,26 @@
+{
+  "ingredients": {
+    "alexscaves:nuclear": {
+      "item": "alexscaves:polymer_plate"
+    }
+  },
+  "modifiers": {
+    "alexscaves:nuclear": {
+      "modulargolems:atomic_fueling": 1,
+      "modulargolems:radiation": 1
+    }
+  },
+  "partLimitation": {},
+  "repairIngredients": {
+    "alexscaves:nuclear": {
+      "item": "alexscaves:uranium_rod"
+    }
+  },
+  "stats": {
+    "alexscaves:nuclear": {
+      "modulargolems:attack": 10.0,
+      "modulargolems:max_health": 120.0,
+      "modulargolems:weight": -0.4
+    }
+  }
+}

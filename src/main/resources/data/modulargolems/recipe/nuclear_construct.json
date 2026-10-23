@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "alexscaves"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "CDC",
+    "BBB"
+  ],
+  "key": {
+    "A": {
+      "item": "alexscaves:polymer_plate"
+    },
+    "B": {
+      "item": "alexscaves:charred_remnant"
+    },
+    "C": {
+      "item": "alexscaves:uranium_rod"
+    },
+    "D": {
+      "item": "alexscaves:fissile_core"
+    }
+  },
+  "result": {
+    "id": "modulargolems:nuclear_construct",
+    "count": 3
+  }
+}
